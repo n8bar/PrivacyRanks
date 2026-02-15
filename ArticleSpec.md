@@ -83,17 +83,19 @@ To keep all 13 sections usable at short length, apply section budgets:
 - When To Move To Next Rank: 3-5 bullets
 - Dependencies: 50-85 words
 - Maintenance Cadence: 35-75 words
-- Incident Scenario: 95-145 words
+- Incident Scenario: 140-220 words
 
 Guidance:
-- Keep the default target at 720-1080 words.
-- Use a 1320-word ceiling only when complexity justifies it, mostly SMB ranks 11-16 where standards alignment is introduced.
+- Keep the default target at 760-1150 words.
+- Use a 1400-word ceiling only when complexity justifies it, mostly SMB ranks 11-16 where standards alignment is introduced.
 
 ## Readability by Rank
 
 - Individual ranks 00-03:
   - Target readability around 9th grade.
   - Keep sentences short and jargon minimal.
+  - Apply this rule to all sections, including Dependencies.
+  - Prefer concrete terms over abstract phrasing.
 - Individual ranks 04-06:
   - Introduce moderate technical terms with short in-line explanations.
 - Individual ranks 07-09:
@@ -103,7 +105,7 @@ Guidance:
 
 - Individual ranks 00-03:
   - Do not include full high-risk guidance.
-  - Use a short defer line if needed.
+  - Use one short escalation line: if readers believe they are high-risk, they should prioritize ranking up quickly.
 - Individual ranks 04-06:
   - Include only a brief optional high-risk note.
 - Individual ranks 07-09:
@@ -123,6 +125,11 @@ Guidance:
 - Late ranks:
   - Reduce persuasion intensity.
   - Increase clarity on operations, constraints, and tradeoffs.
+
+## Preferred Phrasing
+
+- Use: `Believing "nothing to hide" means "nothing to lose"` when that concept is needed.
+- Prefer `concrete default` over `strong default` in Individual track wording.
 
 ## SMB Framing Rules
 
