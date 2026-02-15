@@ -35,12 +35,15 @@ No article files should be generated until an explicit user signal is given.
 - Primary:
   - SMB owners
   - Office managers
+  - Non-technical or less-technical managers
   - IT leads
   - MSP account engineers
 - Secondary:
   - Compliance-conscious operators under audit/insurance pressure
 - Guidance:
   - Assume limited staff and time.
+  - Write for mixed technical fluency, including readers below average on technical savviness.
+  - Increase technical depth gradually as rank increases; beginner ranks stay plain-language first.
 
 ## Standard Article Structure
 
