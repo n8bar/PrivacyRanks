@@ -10,6 +10,7 @@
 ## Conventions
 - Use clear headings and consistent rank formatting.
 - Keep edits readable and incremental.
+- Follow `ArticleSpec.md` for article structure, tone, readability, and narrative rules.
 
 ## Git
 - Keep commit messages short and imperative.

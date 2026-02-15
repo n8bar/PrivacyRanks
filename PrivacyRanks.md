@@ -22,7 +22,7 @@
 **Examples:**
 - Example: Scout Liora opens every link in Brave, even when old habits call back.
 
-## 2) Query Ghost
+## 2) [Query Ghost](articles/individual/02.md)
 **Core Move:** Replace default search with a privacy-respecting engine.  
 **Unlock Requirement:** Change search defaults on all browsers/devices.  
 **Daily Habit:** Use bangs/shortcuts instead of falling back to surveillance search out of habit.  
@@ -33,7 +33,7 @@
 **Examples:**
 - Example: Seeker Vael now searches through DuckDuckGo by default instead of surveillance engines.
 
-## 3) Permission Ranger
+## 3) [Permission Ranger](articles/individual/03.md)
 **Core Move:** Audit app permissions, ad IDs, telemetry, and background access.  
 **Unlock Requirement:** Complete a full permission review on phone and desktop.  
 **Daily Habit:** Deny first; grant only when a feature breaks and the request makes sense.  
