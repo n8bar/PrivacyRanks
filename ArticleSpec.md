@@ -49,41 +49,88 @@ No article files should be generated until an explicit user signal is given.
 
 Each rank article should include:
 
-1. Who this is for
-2. What this rank means
-3. Threats this rank reduces
-4. Minimum viable implementation (30-60 minutes)
-5. Standard implementation (baseline best practice)
-6. High-risk implementation (optional escalation)
-7. Tooling options (2-4 examples, non-prescriptive)
-8. Common mistakes (expanded "Boss Fight")
-9. Verification checklist (pass/fail style)
-10. When to move to next rank (exit criteria)
-11. Dependencies (prerequisites)
-12. Maintenance cadence (daily/weekly/quarterly)
-13. Incident scenario (short failure + recovery example)
+1. Who This Is For
+2. What This Rank Means
+3. Threats This Rank Reduces
+4. Minimum Viable Implementation (30-60 Minutes)
+5. Standard Implementation
+6. High-Risk Implementation
+7. Tooling Options
+8. Common Mistakes
+9. Verification Checklist
+10. When To Move To Next Rank
+11. Dependencies
+12. Maintenance Cadence
+13. Incident Scenario
+
+Authoring rule:
+- Do not expose writing/process metadata in article headings.
+- Keep vendor-neutral policy in the spec, not in heading text.
 
 ### Length Pairing Rules
 
-To keep all 13 sections usable at short length, apply compact section budgets:
+To keep all 13 sections usable at short length, apply section budgets:
 
-- Who this is for: 40-70 words
-- What this rank means: 40-70 words
-- Threats this rank reduces: 60-90 words
-- Minimum viable implementation: 90-130 words
-- Standard implementation: 90-130 words
-- High-risk implementation: 70-120 words
-- Tooling options: 40-80 words
-- Common mistakes: 40-80 words
+- Who This Is For: 50-85 words
+- What This Rank Means: 50-85 words
+- Threats This Rank Reduces: 70-110 words
+- Minimum Viable Implementation: 110-155 words
+- Standard Implementation: 110-155 words
+- High-Risk Implementation: 85-145 words
+- Tooling Options: 50-95 words
+- Common Mistakes: 50-95 words
 - Verification checklist: 5-8 bullets
-- When to move to next rank: 3-5 bullets
-- Dependencies: 40-70 words
-- Maintenance cadence: 30-60 words
-- Incident scenario: 80-120 words
+- When To Move To Next Rank: 3-5 bullets
+- Dependencies: 50-85 words
+- Maintenance Cadence: 35-75 words
+- Incident Scenario: 95-145 words
 
 Guidance:
-- Keep the default target at 600-900 words.
-- Use a 1100-word ceiling only when complexity justifies it, mostly SMB ranks 11-16 where standards alignment is introduced.
+- Keep the default target at 720-1080 words.
+- Use a 1320-word ceiling only when complexity justifies it, mostly SMB ranks 11-16 where standards alignment is introduced.
+
+## Readability by Rank
+
+- Individual ranks 00-03:
+  - Target readability around 9th grade.
+  - Keep sentences short and jargon minimal.
+- Individual ranks 04-06:
+  - Introduce moderate technical terms with short in-line explanations.
+- Individual ranks 07-09:
+  - Higher technical density is allowed.
+
+## High-Risk Section Usage
+
+- Individual ranks 00-03:
+  - Do not include full high-risk guidance.
+  - Use a short defer line if needed.
+- Individual ranks 04-06:
+  - Include only a brief optional high-risk note.
+- Individual ranks 07-09:
+  - Include full high-risk guidance.
+- SMB/MSP ranks 01-08:
+  - Keep high-risk guidance optional and light.
+- SMB/MSP ranks 09-16:
+  - Include high-risk guidance when relevant.
+
+## Narrative Intent by Rank
+
+- Early ranks:
+  - Use payoff-first framing and low-friction examples.
+  - Focus on convincing readers to take one small step.
+- Mid ranks:
+  - Balance motivation with practical examples and tradeoffs.
+- Late ranks:
+  - Reduce persuasion intensity.
+  - Increase clarity on operations, constraints, and tradeoffs.
+
+## SMB Framing Rules
+
+- Favor influence over chore-list language.
+- Prefer phrasing such as "organizations at this rank typically..." over imperative command lists.
+- Use "signals of maturity" framing where possible.
+- Present actions as examples/options unless baseline safety requires stronger wording.
+- Keep ownership clarity, but avoid overloaded checklist tone in SMB ranks 01-08.
 
 ## Tone and Style
 
@@ -117,7 +164,7 @@ Use these exact section headings in this exact order:
 4. `Minimum Viable Implementation (30-60 Minutes)`
 5. `Standard Implementation`
 6. `High-Risk Implementation`
-7. `Tooling Options (Vendor-Neutral, Example Products)`
+7. `Tooling Options`
 8. `Common Mistakes`
 9. `Verification Checklist`
 10. `When To Move To Next Rank`
@@ -142,8 +189,8 @@ Rules:
 ## Decisions
 
 1. Length target per article:
-   - Default short target: 600-900 words
-   - Adaptive ceiling for complex SMB ranks (typically 11-16): up to 1100 words
+   - Default short target: 720-1080 words
+   - Adaptive ceiling for complex SMB ranks (typically 11-16): up to 1320 words
 2. Voice:
    - Fantasy-flavored and story-like, while preserving practical real-world applicability
    - Intensity: medium fantasy
@@ -158,9 +205,13 @@ Rules:
    - SMB Ranks 1-10: no standards language
    - SMB Ranks 11-16: include a short `Standards Alignment` section (2-4 bullets max)
    - Format:
-     - `NIST CSF: ...`
-     - `CIS Controls: ...`
-     - `SOC 2: ...`
+    - `NIST CSF: ...`
+    - `CIS Controls: ...`
+    - `SOC 2: ...`
+
+## Retrofit Rule
+
+When this spec changes materially, regenerate pilot articles so they conform before bulk generation.
 
 ## Execution Gate
 
