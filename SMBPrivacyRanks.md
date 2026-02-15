@@ -9,7 +9,7 @@
 **Rank Description:** Their attitude is "you can't secure what you can't see." Without this, every other control is partially blind and risk stays high.  
 **Boss Fight:** Shadow IT and unknown admin accounts.
 
-## 2) Patchsmith Order
+## 2) Patchsmith Assembly
 **Core Move:** Patch OS, browsers, and critical apps on a fixed cadence.  
 **Unlock Requirement:** A patch schedule and owner with visibility into compliance.  
 **Daily Habit:** Apply critical updates quickly; verify completion.  
@@ -18,7 +18,7 @@
 **Rank Description:** Their attitude is "known vulnerabilities are optional" - and they choose not to be exposed. Without it, commodity exploits stay effective.  
 **Boss Fight:** Deferred updates that become permanent backlog.
 
-## 3) Sigil Keep
+## 3) Order of the Kept Sigil
 **Core Move:** Enforce MFA on all critical services and admin accounts.  
 **Unlock Requirement:** MFA coverage for email, admin consoles, and financial systems.  
 **Daily Habit:** Require MFA for new accounts and vendors by default.  
