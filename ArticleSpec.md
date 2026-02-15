@@ -66,6 +66,7 @@ Each rank article should include:
 Authoring rule:
 - Do not expose writing/process metadata in article headings.
 - Keep vendor-neutral policy in the spec, not in heading text.
+- Avoid meta-writing phrases in article prose (for example: `In real-world terms`).
 
 ### Length Pairing Rules
 
@@ -88,6 +89,7 @@ To keep all 13 sections usable at short length, apply section budgets:
 Guidance:
 - Keep the default target at 760-1150 words.
 - Use a 1400-word ceiling only when complexity justifies it, mostly SMB ranks 11-16 where standards alignment is introduced.
+- Incident scenarios should describe concrete events in sequence (what happened, response, outcome), not abstract summary language.
 
 ## Readability by Rank
 
