@@ -1,6 +1,6 @@
 ﻿# Personal Privacy Ranks (10 Ranks)
 
-## 0) Consent Zombie
+## 0) [Consent Zombie](articles/individual/00.md)
 **Core Move:** Accept that privacy is about power, context, and future risk - not secrecy.  
 **Unlock Requirement:** Identify one personal risk you actually care about.  
 **Daily Habit:** Question one consent prompt per day before accepting.  
@@ -11,7 +11,7 @@
 **Examples:**
 - Example: Lady Elowen knows data harvesting is real, but still taps "Accept All" to move on.
 
-## 1) Browser Squire
+## 1) [Browser Squire](articles/individual/01.md)
 **Core Move:** Leave Chrome and harden a privacy-respecting browser.  
 **Unlock Requirement:** Set the new browser as default and configure basic protections.  
 **Daily Habit:** Open links only in your default browser and keep extensions minimal.  

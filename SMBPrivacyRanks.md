@@ -1,6 +1,6 @@
 ﻿# SMB / IT / MSP Privacy & Security Ranks (16 Ranks)
 
-## 1) Cartographers Guild
+## 1) [Cartographers Guild](articles/smb/01.md)
 **Core Move:** Maintain an accurate inventory of devices, accounts, and SaaS.  
 **Unlock Requirement:** A single source of truth for hardware, users, and core services.  
 **Daily Habit:** Update inventory whenever a device or account is added/removed.  
@@ -90,7 +90,7 @@
 **Rank Description:** Their attitude is "remote access is privileged access." Without it, exposed services become easy targets.  
 **Boss Fight:** RDP or admin portals exposed to the public internet.
 
-## 11) Scryhall Chronicle
+## 11) [Scryhall Chronicle](articles/smb/11.md)
 **Core Move:** Centralize logs and define alert thresholds.  
 **Unlock Requirement:** Log aggregation for endpoints, email, and admin consoles.  
 **Daily Habit:** Triage high-severity alerts and verify anomalies.  
